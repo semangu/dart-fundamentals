@@ -58,4 +58,9 @@ class User {
   final String product;
 
   User(this.name, this.product);
+
+  @override
+  String toString() {
+    return 'User(name: $name, product: $product)';
+  }
 }

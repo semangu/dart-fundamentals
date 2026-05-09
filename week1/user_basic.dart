@@ -1,5 +1,4 @@
 void main() {
-
   // musterinin adını tut
   // musterinin parasini ogren
   // musteriye merhaba diyip parasını söyle
@@ -26,15 +25,13 @@ void main() {
   print("You lost half of your money, Amy $amyMoney");
   print("You lost half of your money, Jack $userMoney");
 
+  // yeni bir user adı oluştur
+  // yeni bir para ver
+  // bu parayi 20ye bol ve ekranda göster
 
-// yeni bir user adı oluştur
-// yeni bir para ver
-// bu parayi 20ye bol ve ekranda göster
+  String userName1 = 'Charles';
+  double user1money = 50;
+  user1money = user1money / 20;
 
-String userName1 = 'Charles';
-double user1money = 50;
-user1money = user1money / 20;
-
-print("$userName1 $user1money");
-
+  print("$userName1 $user1money");
 }

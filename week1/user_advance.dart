@@ -1,21 +1,23 @@
 void main() {
   String userName = "Ned";
 
-  final int bankMoney = 100; // değiştirilmiyor, bir kere değer atanır. Run time'daki son değeri alır.
-  const String bankName = "ABC Bank"; // bu da değişmiyor. Compile edildiği an neyse odur. 
+  final int bankMoney =
+      100; // değiştirilmiyor, bir kere değer atanır. Run time'daki son değeri alır.
+  const String bankName =
+      "ABC Bank"; // bu da değişmiyor. Compile edildiği an neyse odur.
   var userName2 = 'Catelyn';
   var userName2Money = 15;
 
   userName2Money -= 10;
 
-// ------
-// Bank name = "ABC BANK"
-// Bank user 1 = "bank1musteri"
-// Bank user 1 in parası 100.000
-// Bank1 musteriye kimse dokunamaz!
+  // ------
+  // Bank name = "ABC BANK"
+  // Bank user 1 = "bank1musteri"
+  // Bank user 1 in parası 100.000
+  // Bank1 musteriye kimse dokunamaz!
 
-// yeni bir musteri gelecek adı bank2musteri
-// yeni bankaya gelenden bu bank user1 parasını çıkartıp ekrana gösterecek
+  // yeni bir musteri gelecek adı bank2musteri
+  // yeni bankaya gelenden bu bank user1 parasını çıkartıp ekrana gösterecek
 
   const String bankNameSpecial = "ABC Bank";
   final user1 = "Bank 1 musteri";
@@ -28,7 +30,7 @@ void main() {
 
   print("$user2Money");
 
-/* Odev2
+  /* Odev2
   Benim bir halı saham var 100 kişi kapasiteli
   saat 10da 20 kişiiik bir musteri1 mac yapacak ve 20 kisi kesin gelecek.
   saat 10da musteri2 gelip bana 50 kisilik yer ayırtacak. 
@@ -46,5 +48,4 @@ void main() {
   musteri2 = musteri2 - 5;
   int sum = musteri1 + musteri2;
   print("Kalan kapasite: ${haliSaha - sum}");
-
 }
