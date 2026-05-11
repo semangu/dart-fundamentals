@@ -2,7 +2,7 @@ void main(List<String> args) {
   
   String? userName = 'a';
 
-  if(userName!.length > 2) {
+  if(userName.length > 2) {
     print('a');
   } else {
     throw UserNameException();
